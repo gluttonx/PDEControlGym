@@ -24,7 +24,7 @@ def set_size(width, fraction=1, subplots=(1, 1), height_add=0):
     else:
         width_pt = width
 
-    # Width of figure (in pts)
+
     fig_width_pt = width_pt * fraction
     # Convert from pt to inches
     inches_per_pt = 1 / 72.27
